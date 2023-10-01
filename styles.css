@@ -729,19 +729,39 @@ footer {
     }
   }
 
-  .header {
-    height: 115vh;
+ .header {
+    height: 70vh;
   }
   
   .header-content {
     width: var(--container-width-sm);
-    padding-bottom: 2rem;
+    padding-bottom: 0rem;
     margin-top: 1rem;
+  }
+  
+  
+  .header-content p {
+    margin: 0.2rem 0 0.8rem;
   }
 
   .header-socials {
-    display: none;
+    position: unset;
+    bottom: auto;
+    right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 0 0.8rem;
   }
+  
+  .header-socials a {
+    padding: 0.2rem 0.6rem;
+  }
+  
+  .header-socials a:hover {
+    transform: translateY(-0.5rem);
+  }
+  
   .header-image {
     margin-top: 5rem;
     width: 50vw;
