@@ -733,7 +733,7 @@ footer {
     }
   }
 
- .header {
+  .header {
     height: 70vh;
   }
   
@@ -766,6 +766,7 @@ footer {
     transform: translateY(-0.5rem);
   }
   
+
   .header-image {
     margin-top: 5rem;
     width: 50vw;
